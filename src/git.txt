@@ -1,0 +1,15 @@
+First time:
+git clone https://github.com/borhanshuvo/developer-world-client.git
+git checkout -b YourName
+
+
+Next Time : 
+git pull origin development
+git add .
+git commit -m "your commit"
+git fetch && git pull origin development
+git push origin YourName
+
+For branch Delete :
+git branch -d branchName (locally)
+gti push origin --delete branchName(remotely)
