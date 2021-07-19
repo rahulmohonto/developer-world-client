@@ -9,3 +9,7 @@ git add .
 git commit -m "your commit"
 git fetch && git pull origin development
 git push origin YourName
+
+For branch Delete :
+git branch -d branchName (locally)
+gti push origin --delete branchName(remotely)
